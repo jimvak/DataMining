@@ -31,7 +31,9 @@ A dataset used to classify whether a message/email is spam or not spam.
 
 Across the two tasks, the project includes work on:
 
+- exploratory data analysis
 - data preprocessing
+- missing-value handling
 - feature preparation
 - classification modeling
 - model validation
@@ -41,9 +43,10 @@ The project helped strengthen practical skills in:
 
 - Python for machine learning
 - supervised learning workflows
-- classification tasks
-- structured data analysis
-- model evaluation
+- structured and text-based data analysis
+- classification modeling
+- model evaluation using precision, recall, and F1-score
+
 ## Tools and Libraries
 
 - Python
@@ -79,7 +82,14 @@ Install the required libraries with:
 
 ```bash
 pip install -r requirements.txt
-  
+
+## How to Run
+
+1. Clone the repository
+2. Install the required libraries using `requirements.txt`
+3. Run the scripts inside `healthcare-dataset-stroke-data` for the stroke prediction task
+4. Run the script inside `spam_or_not_spam` for the spam detection task
+
 ## Repository Structure
 
 PROJECT_DM_26_5_2021/
@@ -94,4 +104,5 @@ PROJECT_DM_26_5_2021/
 │   ├── spam_or_not_spam.csv
 │   └── spam_embedding_neural_network.py
 ├── Αναφορά.pdf
+├── requirements.txt
 └── README.md
