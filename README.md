@@ -1,11 +1,11 @@
 # Classification Modeling for Stroke Prediction and Spam Detection
 
-This repository contains a data mining project focused on two supervised machine learning classification tasks:
+This repository contains a machine learning project focused on two supervised classification tasks:
 
 - **Stroke prediction** using structured healthcare data
 - **Spam detection** using email/text-based data
 
-The project was developed as part of a university **Data Mining** course and demonstrates the end-to-end workflow of a classification problem, including data preprocessing, model training, validation, and performance evaluation.
+The project was developed as part of a university Data Mining course and demonstrates an end-to-end machine learning workflow, including exploratory analysis, data preprocessing, feature preparation, model training, validation, and performance evaluation.
 
 ## Project Objectives
 
@@ -44,18 +44,54 @@ The project helped strengthen practical skills in:
 - classification tasks
 - structured data analysis
 - model evaluation
-
 ## Tools and Libraries
 
 - Python
 - pandas
 - NumPy
+- matplotlib
+- seaborn
 - scikit-learn
+- TensorFlow / Keras
+- gensim
 
+## Results
+
+### Stroke Prediction
+- Performed exploratory analysis and visualization of the healthcare dataset
+- Applied multiple missing-value handling approaches, including column removal, mean imputation, linear regression imputation, and k-nearest neighbors imputation
+- Trained and evaluated a Random Forest classifier
+- Compared model performance using **precision**, **recall**, and **F1-score**
+
+### Spam Detection
+- Converted email text into numerical representations using word embeddings
+- Trained a neural-network-based classifier for spam detection
+- Evaluated model performance using **precision**, **recall**, and **F1-score**
+
+### Key Takeaways
+- Data preprocessing choices had a visible impact on classification performance
+- Different machine learning methods were better suited to structured and text-based datasets
+- The project strengthened practical skills in classification modeling, preprocessing, embeddings, and model evaluation
+
+## Installation
+
+Install the required libraries with:
+
+```bash
+pip install -r requirements.txt
+  
 ## Repository Structure
 
-```text
 PROJECT_DM_26_5_2021/
 ├── healthcare-dataset-stroke-data/
+│   ├── healthcare-dataset-stroke-data.csv
+│   ├── stroke_dataset_exploration.py
+│   ├── stroke_random_forest_mean_imputation.py
+│   ├── stroke_random_forest_knn_imputation.py
+│   ├── stroke_random_forest_linear_regression_imputation.py
+│   └── stroke_random_forest_column_removal.py
 ├── spam_or_not_spam/
-└── Αναφορά.pdf
+│   ├── spam_or_not_spam.csv
+│   └── spam_embedding_neural_network.py
+├── Αναφορά.pdf
+└── README.md
