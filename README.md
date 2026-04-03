@@ -106,3 +106,7 @@ PROJECT_DM_26_5_2021/
 ├── Αναφορά.pdf
 ├── requirements.txt
 └── README.md
+
+## Project Summary
+
+This project applies machine learning techniques to both structured and text-based classification problems. It combines exploratory analysis, preprocessing, imputation strategies, ensemble learning, embeddings, neural networks, and metric-based evaluation, making it a strong applied data science project for demonstrating junior-level machine learning and data analysis skills.
