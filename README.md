@@ -92,6 +92,9 @@ pip install -r requirements.txt
 
 ## Repository Structure
 
+## Repository Structure
+
+```text
 PROJECT_DM_26_5_2021/
 ├── healthcare-dataset-stroke-data/
 │   ├── healthcare-dataset-stroke-data.csv
@@ -106,6 +109,7 @@ PROJECT_DM_26_5_2021/
 ├── Αναφορά.pdf
 ├── requirements.txt
 └── README.md
+```
 
 ## Project Summary
 
