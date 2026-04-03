@@ -90,7 +90,6 @@ pip install -r requirements.txt
 3. Run the scripts inside `healthcare-dataset-stroke-data` for the stroke prediction task
 4. Run the script inside `spam_or_not_spam` for the spam detection task
 
-## Repository Structure
 
 ## Repository Structure
 
