@@ -54,7 +54,7 @@ The project helped strengthen practical skills in:
 - NumPy
 - matplotlib
 - seaborn
-- scikit-learn
+- sklearn
 - TensorFlow / Keras
 - gensim
 
